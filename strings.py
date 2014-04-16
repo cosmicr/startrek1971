@@ -13,7 +13,7 @@
                                    '---._____.|]""".split('\n')
     
 
-quadrantNames = [
+quadrant_names = [
     "Aaamazzara",
     "Altair IV",
     "Aurelia",
@@ -96,7 +96,7 @@ quadrantNames = [
     "Zytchin III",
     ]
 
-commandStrings = [
+command_strings = [
     "--- Commands -----------------",
     "nav = Navigation",
     "srs = Short Range Scan",
@@ -108,7 +108,7 @@ commandStrings = [
     "qui = Quit the game",
     ]
 
-computerStrings = [
+computer_strings = [
     "--- Main Computer --------------",
     "rec = Cumulative Galatic Record",
     "sta = Status Report",

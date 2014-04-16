@@ -15,10 +15,11 @@ I wondered if anyone had ported it to Python.
 
 After a little bit of research, I didn't find a definitive version for Python.
 
-This is by no means a definitive version itself; I just took the C# version and converted it to Python.
+This is by no means a definitive version itself; I just took the `C# version`_ and converted it to Python.
 
 .. _Star Trek: http://en.wikipedia.org/wiki/Star_Trek_%28text_game%29
-.. _Reddit: http://www.codeproject.com/Articles/28228/Star-Trek-Text-Game
+.. _C# version: http://www.codeproject.com/Articles/28228/Star-Trek-Text-Game
+.. _Reddit: http://www.reddit.com/r/programming/comments/22j4rm/star_trek_1971_basic_game/
 
 Improvements
 ============
@@ -36,4 +37,5 @@ Here is a list of possible improvements:
    + crew functions
 - Easier navigation (using cartesian system maybe)
 - Make some parts more 'Pythonic'
+- Convert to Python 3
 - ...Plenty more!
