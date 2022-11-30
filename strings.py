@@ -10,8 +10,10 @@
                            \__(=======/_=_/____.--'-`--.___
                                       \ \   `,--,-.___.----'
                                     .--`\\--'../
-                                   '---._____.|]""".split('\n')
-    
+                                   '---._____.|]""".split(
+    "\n"
+)
+
 
 quadrantNames = [
     "Aaamazzara",
@@ -94,7 +96,7 @@ quadrantNames = [
     "Zalkon",
     "Zeta Alpha II",
     "Zytchin III",
-    ]
+]
 
 commandStrings = [
     "--- Commands -----------------",
@@ -106,7 +108,7 @@ commandStrings = [
     "she = Shield Control",
     "com = Access Computer",
     "qui = Quit the game",
-    ]
+]
 
 computerStrings = [
     "--- Main Computer --------------",
@@ -115,4 +117,4 @@ computerStrings = [
     "tor = Photon Torpedo Calculator",
     "bas = Starbase Calculator",
     "nav = Navigation Calculator",
-    ]
+]
