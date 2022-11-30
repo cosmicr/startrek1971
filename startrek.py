@@ -808,7 +808,7 @@ def print_sector(quadrant):
     print_sector_row(
         scanned_block,
         0,
-        f"           Quadrant: [{game.quadrant_x + 1},{game.quadrant_y + 1}]",
+        f"           Quadrant: [{int(game.quadrant_x + 1)},{int(game.quadrant_y + 1)}]",
     )
     print_sector_row(
         scanned_block,
