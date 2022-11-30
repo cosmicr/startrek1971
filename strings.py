@@ -15,6 +15,18 @@ titleStrings = r"""
     "\n"
 )
 
+compass_rose = r"""
+4    3    2
+ '.  :  .'
+   '.:.'   
+5---<*>---1
+   .':'.
+ .'  :  '.
+6    7    8
+  COURSE""".split(
+    "\n"
+)
+
 
 quadrantNames = [
     "Aaamazzara",
