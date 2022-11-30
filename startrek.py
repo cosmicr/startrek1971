@@ -606,7 +606,8 @@ def navigation():
 
     direction = input_double("Enter course (1.0--8.9): ")
     if not direction or direction < 1.0 or direction > 9.0:
-        print("Invalid course.\r\n")
+        print_strings(strings.compass_rose)
+        # print("Invalid course.\r\n")
         return
 
     dist = input_double(f"Enter warp factor (0.1--{max_warp_factor}): ")
@@ -717,7 +718,10 @@ def navigation():
 def input_double(prompt):
     """Get floatingpoint number"""
     text = input(prompt)
-    value = float(text)
+    try:
+        value = float(text)
+    except ValueError:
+        return False
     if isinstance(value, float):
         return value
     else:
