@@ -23,6 +23,8 @@ This is by no means a definitive version itself; I just took the C# version and 
 Improvements
 ============
 
+Migrated Python 2.x code to 3.x
+
 There's heaps that can be done with this program. A lot of implementations used global variables.
 I tried to fix this by encapsulating them in a global object, but this can definitely be improved further.
 
